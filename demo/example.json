@@ -1,0 +1,43 @@
+{
+    "jsonQasm": {
+        "playground": [{
+            "line": 0,
+            "name": "q",
+            "gates": []
+        }, {
+            "line": 1,
+            "name": "q",
+            "gates": [{
+                "position": 0,
+                "name": "h"
+            }, {
+                "position": 2,
+                "name": "measure"
+            }]
+        }, {
+            "line": 2,
+            "name": "q",
+            "gates": [{
+                "position": 1,
+                "name": "cx",
+                "to": 1
+            }, {
+                "position": 2,
+                "name": "measure"
+            }]
+        }, {
+            "line": 3,
+            "name": "q",
+            "gates": []
+        }, {
+            "line": 4,
+            "name": "q",
+            "gates": []
+        }],
+        "numberColumns": 40,
+        "numberLines": 5,
+        "numberGates": 4,
+        "hasMeasures": true,
+        "topology": "250e969c6b9e68aa2a045ffbceb3ac33"
+    }
+}

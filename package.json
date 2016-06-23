@@ -1,0 +1,25 @@
+{
+  "name": "QuantumExperimentService",
+  "description": "This module allow tested your experiments in the Quantum chip of IBM",
+  "version": "0.1.0",
+  "author": "Borja Godoy <Borja.Godoy.Gago@gmail.com>",
+  "maintainers": [
+    "borjagodoy"
+  ],
+    "dependencies": {
+    "fs": "2.2.1",
+    "jsonfile": "2.3.1",
+    "node-rest-client": "1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "QuantumAPI",
+    "IBM"
+  ],
+  "main": "./lib/quantumExperimentService",
+  "license": "MIT"
+  
+}
